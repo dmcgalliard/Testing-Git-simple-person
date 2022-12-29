@@ -1,14 +1,16 @@
 import java.util.Scanner;
+
+//creates Person class with needed values
 public class Person {
     private String name;
     private int age;
-
     private String occupation;
-
+    
+    //default constructor
     public Person() {
 
     }
-
+    //setters
     public void setName(Person p) {
         System.out.println("Enter your name: ");
 
@@ -35,7 +37,7 @@ public class Person {
         this.occupation = newOccupation;
     }
 
-
+    //getters
     public String getName() {
         return name;
     }
